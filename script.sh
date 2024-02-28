@@ -1,8 +1,8 @@
 #!/bin/bash
 sudo systemctl stop nginx 
-sudo pkill ngrok
+pkill ngrok
 
-sudo git pull
+git pull
 
 sudo systemctl start nginx
-sudo ngrok http 80
+ngrok http 80
