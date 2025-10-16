@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experiencia - Monica</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-100 min-h-screen">
+  <header class="absolute inset-x-0 top-0 z-50 bg-white/80 backdrop-blur-md shadow-md">
+    <nav class="flex items-center justify-between p-6 lg:px-8">
+      <div class="flex lg:flex-1 items-center gap-3">
+        <a href="index.html" class="flex items-center -m-1.5 p-1.5 gap-3">
+          <img class="h-10 w-10 rounded-full border-2 border-pink-400" src="./images/MoniFoto.jpeg" alt="Home" />
+          <span class="font-semibold text-gray-800 text-lg">Moni Garcilazo</span>
+        </a>
+      </div>
+      <div class="hidden lg:flex lg:gap-x-12">
+        <a href="sobre-mi.html" class="text-sm font-semibold leading-6 text-gray-900">Sobre mí</a>
+        <a href="educacion.html" class="text-sm font-semibold leading-6 text-gray-900">Educación</a>
+        <a href="experiencia.html" class="text-sm font-semibold leading-6 text-indigo-600">Experiencia</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="relative isolate px-6 pt-24 lg:px-8">
+    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+      <div
+        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]">
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-5xl py-20 text-center">
+      <h1 class="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-6xl mb-16">
+        Experiencia Laboral
+      </h1>
+
+       <div class="flex flex-col md:flex-row items-center bg-white shadow-2xl rounded-2xl overflow-hidden mb-16 border border-purple-200">
+        <img src="./images/Nativo.png" alt="Walook" class="w-full md:w-1/2 h-64 object-cover">
+        <div class="p-8 md:text-left text-center">
+          <h3 class="text-2xl font-semibold text-indigo-700 mb-2">Desarrolladora de Software - Nativo Digital</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Desarrollo y mantenimiento de aplicaciones web con HTML, CSS, Vue.js, Angular, Python, Django, Laravel, C# y .NET.
+          </p>
+          <p class="mt-3 text-gray-600 font-medium">📅 Octubre 2024 - Presente</p>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row items-center bg-white shadow-2xl rounded-2xl overflow-hidden mb-16 border border-purple-200">
+        
+        <div class="p-8 md:text-left text-center">
+          <h3 class="text-2xl font-semibold text-indigo-700 mb-2">Pasante Full Stack - Walook México</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Desarrollo y mantenimiento de aplicaciones web con HTML, CSS, Vue.js, Angular, Python, Django, Laravel, C# y .NET.
+          </p>
+          <p class="mt-3 text-gray-600 font-medium">📅 Agosto 2023 - Octubre 2024</p>
+        </div>
+        <img src="./images/walook.png" alt="Walook" class="w-full md:w-1/2 h-64 object-cover">
+      </div>
+
+      <h2 class="text-4xl font-bold text-gray-800 mb-10">Otras Experiencias</h2>
+
+      <div class="grid sm:grid-cols-2 gap-10">
+        <div class="bg-white shadow-lg rounded-2xl overflow-hidden border border-pink-200 hover:scale-[1.02] transition-transform duration-300">
+          <img src="./images/EligeTUFiesta.png" alt="Proyecto Interno" class="w-full h-48 object-cover">
+          <div class="p-6 text-left">
+            <h4 class="font-semibold text-xl text-purple-700 mb-2">Proyecto Interno</h4>
+            <p class="text-gray-600 leading-relaxed text-sm">
+              Diseño y desarrollo de herramientas internas para la creación de fiestas y eventos de manera más interactiva. 
+              Se implementaron dashboards interactivos con React y API REST.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="bg-white shadow-lg rounded-2xl overflow-hidden border border-indigo-200 hover:scale-[1.02] transition-transform duration-300">
+          <img src="./images/gather.jpeg" alt="Aplicación de Gestión" class="w-full h-48 object-cover">
+          <div class="p-6 text-left">
+            <h4 class="font-semibold text-xl text-indigo-700 mb-2">Aplicación de Gestión</h4>
+            <p class="text-gray-600 leading-relaxed text-sm">
+              Aplicación web para la gestión de eventos. Incluye módulos para clientes, reservas y reportes,
+              desarrollada con React, Node.js y MongoDB.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="mt-20 text-center text-gray-500 text-sm pb-6">
+    © 2025 Mónica Garcilazo 
+  </footer>
+</body>
+</html>
