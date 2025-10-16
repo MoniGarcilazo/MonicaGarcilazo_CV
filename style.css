@@ -1,3 +1,68 @@
-*{
-    font-family: Georgia,Times,Times New Roman,serif; 
+* {
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+.nav-link {
+  color: #444;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  color: #a855f7;
+}
+
+.nav-link.active {
+  color: #7e22ce;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.nav-header {
+  position: absolute;
+  inset: 0 0 auto 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #6366f1;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #4f46e5;
+}
+
+.btn-secondary {
+  border: 2px solid #6366f1;
+  color: #4f46e5;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #eef2ff;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  color: #6b7280;
 }
